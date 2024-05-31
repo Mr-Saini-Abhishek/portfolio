@@ -60,6 +60,8 @@ function Projects() {
               title="Expense Tracker"
               description="This web app is useful for all users who want to manage their expenses. This Website provides a user frindly interface who is so helful for check out the income and expenses with their total and much more."
               ghLink="https://github.com/Mr-Saini-Abhishek/Expense-Tracker-Frontend"
+              demoLink="https://expense-tracker-frontend-8ez2.onrender.com/"              
+
             />
           </Col>
 
