@@ -9,7 +9,7 @@ import {
   DiBootstrap,
   DiGithub,
   DiMysql,
-  DiNpm,
+  DiNpm
 } from "react-icons/di";
 
 
@@ -48,7 +48,14 @@ function Techstack() {
         <DiNpm />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-C      </Col>
+        C      
+      </Col>
+      <Col   xs={4} md={2} className="tech-icons">
+        <p style={{fontSize: '2rem'}}>
+      Web Designing  
+
+        </p>
+    </Col>
       
    
       

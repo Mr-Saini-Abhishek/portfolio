@@ -32,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  MERN stack
+                  MERN stack and figma Designs
                 </b>
               </i>
               <br />
@@ -47,8 +47,9 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple"> React.js and Express.js  </b>
               </i>
+                please checkout my MERN and figma projects in projects tab.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
