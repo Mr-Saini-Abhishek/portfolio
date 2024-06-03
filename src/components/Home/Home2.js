@@ -1,12 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+
+import { Container, Row, Col, Button, Nav } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  AiOutlineFundProjectionScreen,
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Home2() {
   return (
@@ -50,7 +53,22 @@ function Home2() {
                 <b className="purple"> React.js and Express.js  </b>
               </i>
                 please checkout my MERN and figma projects in projects tab.
+
             </p>
+            <Button
+            variant="primary"
+           
+          >
+            <Nav.Link
+                as={Link}
+                to="/project"
+                style={{color: 'white', padding: '0'}}
+              >
+                <AiOutlineFundProjectionScreen
+                />{" "}
+                Projects
+              </Nav.Link>
+          </Button>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

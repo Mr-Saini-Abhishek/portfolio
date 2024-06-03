@@ -265,7 +265,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -319,8 +319,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-bottom: 70px !important; */
+  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
